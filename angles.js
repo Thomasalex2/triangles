@@ -26,9 +26,7 @@ function calculateResult() {
     }
 }
 
-function clearResults() {
-    results.innerText = ""
-}
+let clearResults = () => results.innerText = ""
 
 calculate.addEventListener("click", calculateResult)
 angle1.addEventListener("click", clearResults)

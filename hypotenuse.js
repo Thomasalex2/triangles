@@ -16,9 +16,7 @@ function calculateResult() {
     results.innerText = "Hypotenuse Length: " + hypo.toFixed(2)
 }
 
-function clearResults() {
-    results.innerText = ""
-}
+let clearResults = () => results.innerText = ""
 
 calculate.addEventListener("click", calculateResult)
 base_length.addEventListener("click", clearResults)
